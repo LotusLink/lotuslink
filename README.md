@@ -1,57 +1,66 @@
-# create-permaweb-app
+# LotusLink
 
-TBD
-<!-- A boilerplate for creating a web3 projects
+LotusLink is a decentralized application (dApp) that empowers users to create a Link Page on the Arweave Blockchain. By leveraging the permanence and ownership capabilities of the blockchain, users can own their link page forever with a one-time payment.
 
-This boilerplate quickly creates a mono repo with 2 environments, a react frontend environment and a Ethereum development environment for writing, testing and deploying contracts.
+## Features
 
-<p>
-  <a href="https://www.npmjs.com/package/create-permaweb-app">
-    <img src="https://img.shields.io/npm/v/create-permaweb-app" alt="Version">
-  </a>
-    <a href="https://www.npmjs.com/package/create-permaweb-app">
-    <img src="https://img.shields.io/npm/dm/create-permaweb-app" alt="Downloads per month">
-  </a>
-  <a href="/LICENSE">
-    <img src="https://img.shields.io/npm/l/create-permaweb-app" alt="License">
-  </a>
-</p> -->
+- **Link Page Generator**: Create a personalized link page with custom links, and mint it onto the Arweave Blockchain.
+- **Arconnect Integration**: Authorization and Authentication are handled securely using Arconnect, ensuring a seamless user experience.
+- **Arweave Blockchain**: Your link page is yours forever. Once minted, it resides on the Arweave Blockchain, providing true ownership without recurring fees.
+- **Vite-React-Typescript**: Built using Vite with React and TypeScript, LotusLink utilizes modern development practices to enable a multi-page application experience on the Arweave Blockchain.
+- **Profile Image Storage**: Profile images are stored using a user's unique ArDrive account. If a user doesn't have an ArDrive account, one will be created upon minting their first link page.
+- **One-Time Payment**: Unlike traditional services that require monthly subscriptions, LotusLink requires only a minimum of 1.6 AR to mint a link page, providing lifetime ownership.
 
-## Quick Start Notes
+## Why LotusLink?
 
-1.  To start install
+The traditional approach to hosting link pages often involves recurring payments and lack of true ownership. LotusLink disrupts this model by providing a platform where users pay once and own their link page forever. This not only ensures cost-effectiveness but also aligns with the decentralized ethos of true ownership and control.
 
-```bash
-npx create-permaweb-app APP_NAME
-```
+## Getting Started
 
-2.  Run `yarn` or `npm install` to install all the dependencies
-3.  Once installation is complete, `cd` into your app's directory
-4.  Run `yarn dev` or `npm run dev` to start your Next dev environment
+### Prerequisites
 
-## Technologies
+- Arconnect Wallet with a minimum balance of 1.6 AR.
 
-TBD
-<!-- This project is built with the following open source libraries, frameworks and languages. User choice of framework used, available in plain js or typescript.
-| Tech | Description |
-| --------------------------------------------- | ------------------------------------------------------------------ |
-| ------ | ------ React Frontend Environment ------ |
-| [Next JS](https://nextjs.org/) | React Framework |
-| [Vite JS](https://vitejs.dev/) | Next Generation Frontend Tooling |
-| ------ | ------ CSS Framework ------ |
-| none | |
-| [Tailwind](https://tailwindcss.com/) | A utility-first CSS framework |
-| [Chakra](https://chakra-ui.com/) | A simple, modular and accessible component library that gives you the building blocks you need to build your React applications. | -->
+### Installation
 
-## Documentation
+1. Clone the repository
 
-TBD
+   ```bash
+   git clone https://github.com/PSkinnerTech/lotuslink.git
+   ```
 
-## Discussions
+2. Navigate to the project directory
 
-If you have questions how to use, want to suggest a feature, or show off a project you created with create-permaweb-app, join [discussions on GitHub](https://github.com/pbillingsby/create-permaweb-app/discussions). I would love to hear from you. 🙂
+   ```bash
+   cd lotuslink
+   ```
 
-## Issues
+3. Install dependencies
 
-If you find a bug or would like to request a feature, please visit [ISSUES](https://github.com/pbillingsby/create-permaweb-app/issues)
-# lotuslink
+   ```bash
+   npm install
+   ```
+
+4. Start the development server
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and navigate to `http://localhost:5173`.
+
+## Contributing
+
+Feel free to contribute to LotusLink by submitting pull requests or reporting issues.
+
+## License
+
+[MIT License](LICENSE)
+
+## Contact
+
+For any inquiries or feedback, please contact [me@patrickskinner.tech](mailto:me@patrickskinner.tech).
+
+---
+
+Built with ❤️ by [@PSkinnerTech] & [@pbillingsby_]
