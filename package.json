@@ -1,0 +1,32 @@
+{
+  "name": "create-permaweb-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "fundBundlr": "arkb fund-bundler --use-bundler https://node1.bundlr.network -w wallet.json $AMOUNT",
+    "balance": "arkb balance --w wallet.json --use-bundler https://node1.bundlr.network",
+    "deploy": "vite build && arkb deploy dist --wallet wallet.json --use-bundler https://node1.bundlr.network"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "util": "^0.12.4",
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.298"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.2",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1"
+  }
+}
