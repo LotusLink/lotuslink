@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <p className="footer-logo">My App</p>
+        <p className="font-white">My App</p>
         <div className="footer-links">
           <a
             href="https://github.com/PBillingsby/create-permaweb-app/blob/main/README.md"
@@ -22,7 +22,7 @@ export default function Footer() {
           </a>
           {/* Add more links here as needed */}
         </div>
-        <p className="footer-copyright">
+        <p className="font-white">
           © {new Date().getFullYear()} My App. All rights reserved.
         </p>
       </div>

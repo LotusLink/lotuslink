@@ -14,6 +14,7 @@
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^0.9.298",
     "arweave": "^1.14.4",
+    "axios": "^1.4.0",
     "buffer": "^6.0.3",
     "process": "^0.11.10",
     "react": "^18.2.0",

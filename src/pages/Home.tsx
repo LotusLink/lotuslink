@@ -1,7 +1,9 @@
 import React from "react";
 import Spline from "@splinetool/react-spline";
-
+import { useNavigate } from "react-router-dom";
 export default function Home() {
+  const navigate = useNavigate();
+
   return (
     <div>
       <head>
@@ -35,6 +37,12 @@ export default function Home() {
               <a href="https://cookbook.arweave.dev" target="_blank">
                 Explore the Arweave Cookbook
               </a>
+              <button
+                onClick={() => navigate("/active")}
+                className="text-gray-400 text-2xl"
+              >
+                Go to Active Page
+              </button>
             </div>
           </div>
         </div>
