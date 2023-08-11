@@ -1,6 +1,9 @@
 import React from "react";
 import Spline from "@splinetool/react-spline";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
 export default function Home() {
   const navigate = useNavigate();
 
@@ -15,6 +18,7 @@ export default function Home() {
         <link rel="icon" href="/cpa.ico" />
       </head>
       <div>
+        <Navbar />
         <div className="main">
           <div className="content">
             <Spline
@@ -47,6 +51,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { StateContext } from "../../context/state";
 import Links from "./Links";
 import ImageUpload from "./ImageUpload";
+import Phone from "./Phone";
 
 const Form: React.FC = () => {
   const context = useContext(StateContext);
@@ -46,6 +47,9 @@ const Form: React.FC = () => {
 
         <article className="mt-8">
           <Links />
+        </article>
+        <article>
+          <Phone />
         </article>
       </div>
     </>
