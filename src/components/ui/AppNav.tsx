@@ -1,9 +1,10 @@
 import React from "react";
-import Logo from "../public/assets/AGAMI White Lotus.png";
+import Logo from "../../public/assets/AGAMI White Lotus.png";
+import { UserIcon, AddLinksIcon, DomainIcon } from "../../public/icons/index";
 
 const AppNav: React.FC = () => {
   return (
-    <nav className="bg-gray-950 text-white rounded-full p-1 mt-2 mx-5 shadow-lg">
+    <nav className="bg-black text-white rounded-full p-1 mt-2 mx-5 shadow-lg">
       <div className="container mx-auto">
         <div className="flex justify-between items-center py-1">
           {/* Logo Section */}
@@ -18,10 +19,11 @@ const AppNav: React.FC = () => {
               className="text-white hover:text-gray-400 flex items-center space-x-2"
             >
               <img
-                src="path/to/profile/icon.png"
+                src={UserIcon}
                 alt="Profile Icon"
                 width="15"
                 height="15"
+                className="mx-1"
               />
               Profile
             </a>
@@ -30,19 +32,21 @@ const AppNav: React.FC = () => {
               className="text-white hover:text-gray-400 flex items-center space-x-2"
             >
               <img
-                src="path/to/links/icon.png"
+                src={AddLinksIcon}
                 alt="Links Icon"
                 width="15"
                 height="15"
+                className="mx-1"
               />
               Links
             </a>
             <span className="text-white italic flex items-center space-x-2">
               <img
-                src="path/to/domain/icon.png"
+                src={DomainIcon}
                 alt="Domain Icon"
                 width="15"
                 height="15"
+                className="mx-1"
               />
               Your Domain (Coming Soon)
             </span>
