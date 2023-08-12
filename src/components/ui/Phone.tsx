@@ -23,7 +23,7 @@ const Phone: React.FC = () => {
           borderRadius: 40,
           background: `url(${image}) no-repeat center/cover`,
         }}
-        className="border-8 border-black w-full sm:w-96 sm:mx-auto md:scale-90 md:fixed md:right-8 lg:right-20 xl:right-32 2xl:right-52 overflow-auto"
+        className="border-8 border-black w-full sm:w-96 sm:mx-auto md:scale-90 md:fixed md:right-8 lg:right-20 xl:right-32 2xl:right-24 top-52 overflow-auto"
       >
         <div className="p-8">
           {/* <article>
